@@ -1,0 +1,95 @@
+ .content-card {
+     width: 225px;
+     height: 225px;
+     margin: 0 5px 5px 5px;
+     float: left;
+     padding: 10px;
+     position: relative;
+     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+     background-color: dimgrey;
+ }
+
+ img {
+     margin-left: auto;
+     margin-right: auto;
+     width: 225px;
+     height: 200px;
+
+ }
+
+ .content-card:hover {
+     -ms-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -webkit-transform: scale(1.1);
+     -o-transform: scale(1.1);
+
+     -ms-transition: all 1s;
+     -webkit-transition: all 1s;
+     -moz-transition: all 1s;
+     -o-transition: all 1s;
+
+     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+ }
+
+
+ .content-text {
+     text-align: center;
+     color: white;
+     margin-bottom: 75px;
+     font-family: 'Big Shoulders Text', cursive;
+
+ }
+
+ .content-wrapper {
+     width: 100%;
+     max-width: 900px;
+     align-content: center;
+     margin: auto;
+ }
+
+ .content-container {
+     width: 100%;
+     height: 100vh;
+     margin-top: auto;
+     margin-bottom: auto;
+ }
+
+.content-title {
+     font-family: 'Big Shoulders Text', cursive;
+    font-size: 200%;
+    color: white;
+}
+
+.hello-text {
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 400%;
+    color: white;
+    height: 100vh;
+    
+    animation-name: move-text;
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+
+.name-text {
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 400%;
+    color: white;
+    position: relative;
+    
+}
+
+@keyframes move-text {
+    0% {
+    transform: translate(-400px);
+    }
+    50%{
+    transform: translate(-200px);
+    }
+    100%{
+     transform: translate(0px);
+    }
+}
+
+
