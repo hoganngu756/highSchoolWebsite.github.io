@@ -92,4 +92,32 @@
     }
 }
 
+html  {
+    scroll-behavior: smooth;
+    
+}
+
+
+
+footer img {
+    height: 100px;
+    width: 100px;
+    display: inline;
+  
+    
+}
+
+.banner {
+            line-height: 0px;
+            padding-left: 280px;
+            color: #ffffff;
+            font-size: 20px;
+            position: sticky;
+            z-index: 1;
+            bottom: 0px;
+}
+    
+    
+
+
 
